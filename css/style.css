@@ -22,6 +22,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     margin: 20px 0;
+    font-size: 2rem;
 }
 
 #validate-btn {

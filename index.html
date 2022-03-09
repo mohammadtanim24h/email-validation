@@ -13,10 +13,11 @@
     <div id="validation-area" class="w-25 text-center mx-auto text-muted">
         <h3 id="section-title">Validate Your Email</h3>
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input id="email-input" type="email" class="form-control" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
         </div>
-        <button id="validate-btn">Validate</button>
+        <h5 id="validation-result" class="text-center"></h5>
+        <button onclick="validateEmail()" id="validate-btn">Validate</button>
     </div>
     <script src="js/app.js"></script>
 </body>
