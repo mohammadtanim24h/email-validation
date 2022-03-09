@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(90deg, #59D559, #3BC56D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
